@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  font-family: Roboto, Helvetica, Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+.centru {
+  text-align: center;
+  padding-left: 460px;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 55px;
+}
+
+
+
