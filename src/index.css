@@ -16,7 +16,12 @@ p {
 
 .centru {
   text-align: center;
-  padding-left: 460px;
+  padding-left: 500px;
+}
+
+.centrare{
+  text-align: center;
+  padding-left: 400px;
 }
 
 .footer{
