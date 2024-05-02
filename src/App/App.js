@@ -1,14 +1,14 @@
 import { MDBContainer } from "mdb-react-ui-kit";
 import NavbarComponent from "../components/NavbarComponents";
 import FooterComponent from "../components/FooterComponent";
-import "./styles.css";
-import Login from "./images/Login.png";
-import Dashboard from "./images/Dashboard.png";
-import Notificari from "./images/Notificari.png";
-import Detalii from "./images/Detalii cont.png";
-import Pagini from "./images/Mai multe pagini.png";
+import "../App.sass";
+import Login from "../../images/Login.png";
+import Dashboard from "../../images/Dashboard.png";
+import Notifications from "../../images/Notifications.png";
+import Account_Details from "../../images/Account_Details.png";
+import More_pages from "../../images/More_pages.png";
 
-export default function Aplicatie() {
+export default function App() {
   return (
     <>
       <NavbarComponent props={"e"} />
@@ -73,13 +73,13 @@ export default function Aplicatie() {
             <header>Detalii cont</header>
             <p>În aceasta pagina se vedea numele complet al studentului autentificat și adresa instituțională a acestuia.</p>
             <p>Tot în aceasta secțiune se mai pot vedea și facultatea, specializarea, grupa și numărul matricol ale studentului autentificat.</p>
-            <img src={Detalii} alt="Details page" width="40%" height="40%" className="center-image"/>
+            <img src={Account_Details} alt="Details page" width="40%" height="40%" className="center-image"/>
         </section>
         <br /><br /><br />
         <section class="main-section" id="Notificari">
             <header>Notificari</header>
             <p>În aceasta pagina se pot vedea anunțurile date de rectorii sau decanii facultății privind evenimente, programul de decontare abonamente etc.</p>
-            <img src={Notificari} alt="Notification page" width="40%" height="40%" className="center-image"/>
+            <img src={Notifications} alt="Notification page" width="40%" height="40%" className="center-image"/>
         </section>
         <br /><br /><br />
         <section class="main-section" id="Mai_multe_pagini">
@@ -93,7 +93,7 @@ export default function Aplicatie() {
               <li>alte informatii utile</li>
               <li>optiunea de log-out</li>
             </ul>
-            <img src={Pagini} alt="More pages" width="40%" height="40%" className="center-image"/>
+            <img src={More_pages} alt="More pages" width="40%" height="40%" className="center-image"/>
         </section>
         <br /><br /><br />
         <section class="main-section" id="Card_digital">

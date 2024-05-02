@@ -1,9 +1,9 @@
 import { MDBContainer } from "mdb-react-ui-kit";
 import NavbarComponent from "../components/NavbarComponents";
-import "./styles.css";
-import WebMail from "./images/WebMail.png";
+import "../Mail.sass";
+import WebMail from "../../images/WebMail.png";
 
-export default function Acasa() {
+export default function Mail() {
 
   return (
     <>

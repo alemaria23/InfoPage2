@@ -11,20 +11,20 @@ import {
 } from "react-router-dom";
 
 
-import Acasa from './pages/Acasa';
-import Contact from './pages/Contact';
-import ErrorPage from './pages/ErrorPage';
+import Home from '../src/Home';
+import Contact from '../src/Contact';
+import ErrorPage from '../src/ErrorPage';
 
-import Aplicatie from './pages/Aplicatie';
-import Elearning from './pages/Elearning';
-import Intranet from './pages/Intranet';
-import Mail from './pages/Mail';
-import Ticket from './pages/Ticket';
+import App from '../src/App';
+import Elearning from '../src/Elearning';
+import Intranet from '../src/Intranet';
+import Mail from '../src/Mail';
+import Ticket from '../src/Ticket';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Acasa />,
+    element: <Home />,
     errorElement: <ErrorPage />,
   },
   {
@@ -33,8 +33,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/Aplicatie",
-    element: <Aplicatie />,
+    path: "/App",
+    element: <App />,
     errorElement: <ErrorPage />,
   },
   {
