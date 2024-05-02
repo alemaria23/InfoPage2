@@ -1,6 +1,6 @@
 import { MDBContainer } from "mdb-react-ui-kit";
 import NavbarComponent from "../components/NavbarComponents";
-import "./Application.sass";
+import "./Mobile.sass";
 
 import Login from "../images/Login.png";
 import Dashboard from "../images/Dashboard.png";
@@ -8,13 +8,13 @@ import Notifications from "../images/Notifications.png";
 import Account_Details from "../images/Account_Details.png";
 import More_pages from "../images/More_pages.png";
 
-export default function Application() {
+export default function Mobile() {
   return (
     <>
       <NavbarComponent props={"e"} />
       <MDBContainer fluid className="body">
       <nav id="navbar">
-        <header>Aplicatie</header>
+        <header>Mobile</header>
         <ul>
             <li>
                 <a class="nav-link" href="#Pagina_login">Pagina login</a>

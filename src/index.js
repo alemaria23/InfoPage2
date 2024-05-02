@@ -15,7 +15,7 @@ import Home from '../src/Home/Home';
 import Contact from '../src/Contact/Contact';
 import ErrorPage from '../src/ErrorPage/ErrorPage';
 
-import Mobile from './Mobile/Mobile';
+import Mobile from '../src/Mobile/Mobile';
 import Elearning from '../src/Elearning/Elearning';
 import Intranet from '../src/Intranet/Intranet';
 import Mail from '../src/Mail/Mail';
