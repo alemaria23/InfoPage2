@@ -1,6 +1,6 @@
 import { MDBContainer } from "mdb-react-ui-kit";
 import NavbarComponent from "../components/NavbarComponents";
-import "../Application/Application.sass";
+import "./Application.sass";
 
 import Login from "../images/Login.png";
 import Dashboard from "../images/Dashboard.png";
