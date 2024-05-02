@@ -11,15 +11,15 @@ import {
 } from "react-router-dom";
 
 
-import Home from '../src/Home';
-import Contact from '../src/Contact';
-import ErrorPage from '../src/ErrorPage';
+import Home from '../src/Home/Home';
+import Contact from '../src/Contact/Contact';
+import ErrorPage from '../src/ErrorPage/ErrorPage';
 
 import App from '../src/App';
-import Elearning from '../src/Elearning';
-import Intranet from '../src/Intranet';
-import Mail from '../src/Mail';
-import Ticket from '../src/Ticket';
+import Elearning from '../src/Elearning/Elearning';
+import Intranet from '../src/Intranet/Intranet';
+import Mail from '../src/Mail/Mail';
+import Ticket from '../src/Ticket/Ticket';
 
 const router = createBrowserRouter([
   {
