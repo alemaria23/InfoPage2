@@ -1,7 +1,6 @@
 import { MDBContainer } from "mdb-react-ui-kit";
 import NavbarComponent from "../components/NavbarComponents";
-import FooterComponent from "../components/FooterComponent";
-import "../Intranet.sass";
+import "../Intranet/Intranet.sass";
 
 export default function Intranet() {
 

@@ -1,7 +1,7 @@
 import { MDBContainer } from "mdb-react-ui-kit";
 import NavbarComponent from "../components/NavbarComponents";
-import "../Mail.sass";
-import WebMail from "../../images/WebMail.png";
+import "../Mail/Mail.sass";
+import WebMail from "../images/WebMail.png";
 
 export default function Mail() {
 

@@ -1,9 +1,9 @@
 import { MDBContainer } from "mdb-react-ui-kit";
 import NavbarComponent from "../components/NavbarComponents";
-import "../Ticket.sass";
-import Ticket from "../../images/Ticket.png";
+import "../Ticket/Ticket.sass";
+import Ticket from "../images/Ticket.png";
 
-export default function Ticket() {
+export default function Acasa() {
 
   return (
     <>

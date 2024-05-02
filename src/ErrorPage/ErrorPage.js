@@ -1,6 +1,6 @@
 import { useRouteError } from "react-router-dom";
 import NavbarComponent from "../components/NavbarComponents";
-import "../ErrorPage.sass";
+import "../ErrorPage/ErrorPage.sass";
 
 
 export default function ErrorPage() {

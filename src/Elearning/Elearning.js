@@ -1,6 +1,6 @@
 import { MDBContainer } from "mdb-react-ui-kit";
 import NavbarComponent from "../components/NavbarComponents";
-import "../Elearning.sass";
+import "../Elearning/Elearning.sass";
 
 export default function Elearning() {
 

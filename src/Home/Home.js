@@ -1,7 +1,7 @@
 import { MDBContainer } from "mdb-react-ui-kit";
 import NavbarComponent from "../components/NavbarComponents";
 import FooterComponent from "../components/FooterComponent";
-import "../Home.sass";
+import "../Home/Home.sass";
 
 
 export default function Home() {

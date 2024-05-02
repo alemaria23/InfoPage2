@@ -15,7 +15,7 @@ import Home from '../src/Home/Home';
 import Contact from '../src/Contact/Contact';
 import ErrorPage from '../src/ErrorPage/ErrorPage';
 
-import App from '../src/App';
+import Application from '../src/Application/Application';
 import Elearning from '../src/Elearning/Elearning';
 import Intranet from '../src/Intranet/Intranet';
 import Mail from '../src/Mail/Mail';
@@ -33,8 +33,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "/App",
-    element: <App />,
+    path: "/Application",
+    element: <Application />,
     errorElement: <ErrorPage />,
   },
   {

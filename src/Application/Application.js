@@ -1,14 +1,14 @@
 import { MDBContainer } from "mdb-react-ui-kit";
 import NavbarComponent from "../components/NavbarComponents";
-import FooterComponent from "../components/FooterComponent";
-import "../App.sass";
-import Login from "../../images/Login.png";
-import Dashboard from "../../images/Dashboard.png";
-import Notifications from "../../images/Notifications.png";
-import Account_Details from "../../images/Account_Details.png";
-import More_pages from "../../images/More_pages.png";
+import "../Application/Application.sass";
 
-export default function App() {
+import Login from "../images/Login.png";
+import Dashboard from "../images/Dashboard.png";
+import Notifications from "../images/Notifications.png";
+import Account_Details from "../images/Account_Details.png";
+import More_pages from "../images/More_pages.png";
+
+export default function Application() {
   return (
     <>
       <NavbarComponent props={"e"} />
