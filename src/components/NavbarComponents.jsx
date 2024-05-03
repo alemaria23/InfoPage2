@@ -29,7 +29,7 @@ export default function NavbarComponent() {
             Info Page
           </MDBDropdownToggle>
           <MDBDropdownMenu>
-            <MDBDropdownItem link href="/Aplicatie">Aplicatie</MDBDropdownItem>
+            <MDBDropdownItem link href="/Mobile">Aplicatie</MDBDropdownItem>
             <MDBDropdownItem link href="/Intranet">Intranet</MDBDropdownItem>
             <MDBDropdownItem link href="/Elearning">E-learning</MDBDropdownItem>
             <MDBDropdownItem link href="/Mail">Mail</MDBDropdownItem>

@@ -14,7 +14,7 @@ export default function Mobile() {
       <NavbarComponent props={"e"} />
       <MDBContainer fluid className="body">
       <nav id="navbar">
-        <header>Mobile</header>
+        <header>Aplicatie</header>
         <ul>
             <li>
                 <a class="nav-link" href="#Pagina_login">Pagina login</a>
