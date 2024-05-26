@@ -15,17 +15,20 @@ body
 section
   margin-top: 40px
 
-#navbar
+#navbar 
   background-color: #fff
-  width: 100%
+  width: 300px
   border-bottom: 1px solid
+  position: fixed
+  left: 0
 
-  li
+  li 
     color: #4d4e53
     border-top: 1px solid black
     list-style: none
+  
 
-  a
+  a 
     display: block
     padding: 10px 30px
     color: #4d4e53
@@ -33,10 +36,12 @@ section
     cursor: pointer
     font-size: 18px
     transition: text-indent 0.3s ease-in-out
+  
 
-    &:hover
-      font-weight: 500
-      text-indent: 5px
+  a:hover 
+    font-weight: 500
+    text-indent: 5px
+
 
 p
   margin: 10px
@@ -69,16 +74,13 @@ code
 .image
   width: 100%
 
-footer
-  padding: 30px
-  text-align: center
-  color: #888
 
 @media only screen and (min-width: 815px)
   body
     flex-direction: row
 
   #navbar
+    padding-left: 0
     width: 300px
     position: fixed
     height: 100%

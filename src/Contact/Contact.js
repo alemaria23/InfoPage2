@@ -13,10 +13,10 @@ export default function Contact() {
         <h1>Hei!</h1>
         <h4>Nu ai reusit sa gasesti informatiile de care aveai nevoie?</h4>
         <h5>Nu iti face griji. Suntem aici ca sa te ajutam.</h5>
-        <p>
+        <h6>
            Trimite un ticket pe platforma <a href="https://ticket.unitbv.ro/?lang=ro">Ticket UNITBV</a> si cineva te v-a ajuta in cel mai scurt timp posibil.
-        </p>
-        <p>Daca ai dificultati sa folosesti platforma, poti intra in sectiunea "Ticket" din cadrul acestei platforme pentru a te informa.</p>
+        </h6>
+        <h6>Daca ai dificultati sa folosesti platforma, poti intra in sectiunea "Ticket" din cadrul acestei platforme pentru a te informa.</h6>
       </MDBContainer>
       <FooterComponent />
     </>
